@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="media.css">
+  <title>Intro section with dropdown navigation</title>
+
+</head>
+
+<body>
+<header>
+ 
+  <div class="menu">
+    <img  src="images/logo.svg" alt="snap">
+    <div class="dropdown">
+      <a onclick="features()" type="button" id="btnfeature" class="dropbtn icn">Features</a>
+      <div id="dropdownfeatures" class="dropdown-content" >
+        <a class="todo" href="#">Todo List</a>
+        <a  class="calendar" href="#">Calendar</a>
+        <a  class="reminders" href="#">Reminders</a>
+        <a class="planning" href="#">Planning</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <a onclick="featurescompany()"type="button" id="btncontent" class="dropbtn icn" >Company</a>
+      <div id="dropdownfeaturescompany" class="dropdown-content company">
+        <a href="#" >History</a>
+        <a href="#" >Our Team</a>
+        <a href="#" >Blog</a>
+      </div>
+    </div>
+    
+    <a>Careers</a>
+    <a>About</a>
+  </div>
+
+ <div class="client">
+  <a href=#>Login</a>
+  <a class="register" href="#">Register</a>
+ </div>
+
+ <div id="sidenav" class="menumobile">
+   <div class="contentside">
+    <a href="javascript:void(0)" onclick="closeSide()" ><img class="closeside" src="images/icon-close-menu.svg" alt="x"></a>
+    <a onclick="accordion()" type="button" id="btnfeature" class="dropbtn icn accordion">features</a>
+    <div class="list">
+      <ul>
+       <li><a class="todo" href="#">Todo List</a></li>
+       <li><a class="calendar" href="#">Calendar</a></li>
+       <li><a class="reminders" href="#">Reminders</a></li>
+       <li><a class="planning" href="#">Planning</a></li>
+      </ul>
+      
+    </div>
+    <a onclick="accordion()" type="button" id="btnfeature" class="dropbtn icn accordion">Company</a>
+    <div class="list">
+      <ul>
+        <li><a href="#" >History</a></li>
+        <li><a href="#" >Our Team</a></li>
+        <li><a href="#" >Blog</a></li>
+
+      </ul>
+      
+    </div>
+    <a>Careers</a>
+    <a>About</a>
+   </div>
+
+ </div>
+
+ <div id="main">
+  <a class="openside" onclick="openSide()" ><img src="images/icon-menu.svg" alt="menuside"></a>
+ </div>
+</header>
+
+
+<main>
+  <div class="textcenter">
+    <h1>Make remote work</h1>
+
+    <p>Get your team in sync, no matter your location. Streamline processes, 
+      create team rituals, and watch productivity soar.</p>
+  
+    <a href="#">Learn more</a>
+    <div class="clients">
+      <img src="images/client-databiz.svg" alt="databiz">
+      <img src="images/client-audiophile.svg" alt="audiophile">
+      <img src="images/client-meet.svg" alt="meet">
+      <img src="images/client-maker.svg" alt="maker">
+    </div>
+  </div>
+  <img class="hero" src="images/image-hero-desktop.png" alt="ilustration">
+</main>
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/iagohenrique2009">Iago Henrique</a>.
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>

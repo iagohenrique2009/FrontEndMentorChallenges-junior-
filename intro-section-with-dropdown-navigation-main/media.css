@@ -1,0 +1,60 @@
+@media (max-width:500px){
+    body{
+        background: url("images/image-hero-mobile.png") no-repeat;
+        background-size:100%;
+        background-position: 0px 5rem;
+        padding-right: 1rem;
+    }
+    .hero{
+        display:none;
+    }
+    .textcenter{
+        margin-top:20rem;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+
+    }
+    .attribution{
+       display: none;
+    }
+    .textcenter h1{
+        font-size: 40px;
+        width:30rem;
+    }
+    .textcenter p{
+        margin-top:1rem;
+        width:25rem;
+    }
+    .client{
+        display: none;
+    }
+    .menu a{
+        display:none;
+    }
+    .menumobile{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 1rem;
+    }
+    .closeside{
+       position: absolute;
+        top: 1rem;
+        right: 1rem;
+    }
+
+    .dropdown{
+        margin-left: 2rem;
+    }
+    .icn::after{
+        margin: 0 60px 0 10px;
+    }
+
+}
+@media (min-width:501px){
+   #main{
+       display: none;
+   }
+}
