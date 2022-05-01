@@ -23,15 +23,22 @@ body{
 body p{
     font-size:18px;
 }
+body a{
+    text-decoration: none;
+}
 /*body*/
 /*header*/
+header a{
+    color:var(--MediuGray);
+}
 header{
     display:flex;
     flex-direction:row;
     justify-content: space-between;
     align-items: center;
     gap:2rem;
-    color:var(--MediuGray)
+    
+    text-decoration: none;
 }
 header a:hover{
     color:var(--AlmostBlack);
