@@ -42,11 +42,12 @@ main{
     box-shadow: 1px 3px 4px 1px rgba(0,0,0,0.1);
 }
 
-h6{
+h1{
     text-transform: uppercase;
     color:var(--NeonGreen);
     font-weight: lighter;
     letter-spacing: 3px;
+    font-size: 13px;
 }
 
 .imgdice{
