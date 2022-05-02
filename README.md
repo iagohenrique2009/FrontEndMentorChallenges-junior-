@@ -6,12 +6,11 @@
 
 - #### Intro-site-with-dropdown
  - [Live Page](https://iagohenrique2009.github.io/FrontEndMentorChallenges-junior-/intro-section-with-dropdown-navigation-main)
-- [Repository]
+- [Repository](https://github.com/iagohenrique2009/FrontEndMentorChallenges-junior-/tree/main/intro-section-with-dropdown-navigation-main)
 
 - #### Advice Generator 
 
- - [Live Page]()
-
- -[Repository]
+ - [Live Page](https://iagohenrique2009.github.io/FrontEndMentorChallenges-junior-/advice-generator-app-main/)
+ - [Repository](https://github.com/iagohenrique2009/FrontEndMentorChallenges-junior-/tree/main/advice-generator-app-main)
 
 
