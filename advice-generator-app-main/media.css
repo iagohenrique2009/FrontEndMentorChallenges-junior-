@@ -1,0 +1,21 @@
+@media (max-width:500px){
+  .ptn{
+      display: none;
+  }
+  .container{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 60%;
+      padding-bottom: 0;
+  }
+  .imgdice{
+    transform: translate(0px, 30px);
+  }
+}
+
+@media (min-width:501px){
+    .ptnmb{
+        display: none;
+    }
+}
