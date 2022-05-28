@@ -38,7 +38,7 @@ main{
     color: var(--LightCyan);
     font-weight: 800;
     border-radius: 0.7rem;
-    padding:2rem;
+    padding:2rem 2rem 0rem 2rem;
     box-shadow: 1px 3px 4px 1px rgba(0,0,0,0.1);
 }
 
@@ -55,7 +55,7 @@ h1{
     padding:1rem;
     border-radius: 100%;
     border:0;
-    transform: translate(0px, 60px);
+    transform: translate(0px, 30px);
     cursor:pointer;
 }
 .imgdice :hover{
