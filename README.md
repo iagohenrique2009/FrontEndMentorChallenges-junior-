@@ -22,5 +22,5 @@
 
 - #### Expenses Chart
 
- - [Live Page]
- - [Repository]
+ - [Live Page](https://iagohenrique2009.github.io/FrontEndMentorChallenges-junior-/expenses-chart-component-main/)
+ - [Repository](https://github.com/iagohenrique2009/FrontEndMentorChallenges-junior-/tree/main/expenses-chart-component-main)
