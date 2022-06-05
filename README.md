@@ -20,3 +20,7 @@
  - [Live Page](https://iagohenrique2009.github.io/FrontEndMentorChallenges-junior-/time-tracking-dashboard-main/)
  - [Repository](https://github.com/iagohenrique2009/FrontEndMentorChallenges-junior-/tree/main/time-tracking-dashboard-main)
 
+- #### Expenses Chart
+
+ - [Live Page]
+ - [Repository]

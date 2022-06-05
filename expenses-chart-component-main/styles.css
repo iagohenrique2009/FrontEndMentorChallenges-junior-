@@ -1,0 +1,115 @@
+/*var*/
+:root{
+
+    --Softred: hsl(10, 79%, 65%);
+    --Cyan: hsl(186, 34%, 60%);
+    --Darkbrown: hsl(25, 47%, 15%);
+    --Mediumbrown: hsl(28, 10%, 53%);
+    --Cream: hsl(27, 66%, 92%);
+    --Verypaleorange: hsl(33, 100%, 98%);
+
+}
+/*var*/
+/*front-end mentor txt*/
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+}
+
+.attribution a {
+     color: hsl(228, 45%, 44%);
+}
+/*front-end mentor txt*/
+body{
+    
+    font-family: 'DM Sans', sans-serif;
+    font-size:16px;
+    background-color: var(--Cream)
+
+}
+main{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+
+    display: flex;
+    flex-direction: column;
+    gap:1.5rem;
+    
+
+}
+.header{
+    width: 30rem;
+    background-color: var(--Softred);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:1rem 2rem 1rem 2rem;
+    border-radius: 1rem;
+    color:#fff;
+}
+
+.header p:first-child{
+    
+    margin: 0.5rem 0 0.5rem 0;
+    color: var(--Cream);
+
+}
+.header p:last-child{
+    margin: 0.5rem 0 0.5rem 0;
+    font-size:30px;
+    font-weight: 700;
+
+}
+
+.chart{
+
+
+    background-color: var(--Verypaleorange);
+    padding:1rem 2rem 1rem 2rem;
+    border-radius: 1rem;
+
+}
+
+.baseboard{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+hr{
+    border: none;
+    border-top: 0.2rem solid hsl(27, 66%, 92%);
+    border-radius: 1rem;
+    margin:2rem 0 2rem 0;
+   
+}
+.left p:first-child{
+    margin:0;
+}
+
+.left p:last-child{
+    color: var(--Darkbrown);
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.right p:first-child{
+
+    margin:0;
+    font-weight: 700;
+    text-align: right;
+
+}
+.right p:last-child{
+    margin: 0;
+}

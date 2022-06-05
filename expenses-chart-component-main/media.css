@@ -1,0 +1,18 @@
+@media (max-width:375px){
+
+main{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.header{
+    width: 25rem;
+}
+.chart{
+    width: 25rem;
+}
+
+}
