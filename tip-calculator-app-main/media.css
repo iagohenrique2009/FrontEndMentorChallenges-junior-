@@ -1,0 +1,57 @@
+@media (max-width:570px){
+
+.container{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: flex-start;
+    height: 50em;
+}
+.leftbox p:first-child{
+    margin:  2rem 0 1rem 0;
+}
+.leftbox .tiptxt{
+    margin:2rem 0 1rem 0;
+}
+.numpeople{
+    margin:2rem 0 1rem 0;
+}
+
+.select-porcent{
+    
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.select-porcent button{
+    width: 9rem;
+}
+.select-porcent input{
+    width: 9rem;
+}
+.topbtn{
+    
+    display: flex;
+    flex-direction: column;
+
+}
+.botbtn{
+
+    display: flex;
+    flex-direction: column;
+}
+.rightbox{
+    display: flex;
+    flex-direction: column;
+    width: 15.5rem;
+}
+.amount{
+    height: 5rem;
+}
+
+#resetbtn{
+    width: auto;
+}
+}
+

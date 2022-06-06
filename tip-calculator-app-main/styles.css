@@ -1,0 +1,344 @@
+:root{
+    
+        /*color var*/
+    --StrongCyan: hsl(172, 67%, 45%);
+    --VeryDarkCyan: hsl(183, 100%, 15%);
+    --DarkGrayishCyan: hsl(186, 14%, 43%);
+    --GrayishCyan: hsl(184, 14%, 56%);
+    --LightGrayishCyan: hsl(185, 41%, 84%);
+    --VeryLightGrayishCyan: hsl(189, 41%, 97%);
+    --White: hsl(0, 0%, 100%);
+        /*color var*/
+
+}
+
+.attribution { 
+
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+
+    color: hsl(228, 45%, 44%); 
+
+}
+
+body{
+
+    background-color: var(--LightGrayishCyan);
+    font-family: "Space Mono", "sans-serif";
+    min-height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+}
+/* general style and position*/
+h1{
+    
+    text-align: center;
+    font-size: 1.5rem;
+    color:var(--DarkGrayishCyan);
+    letter-spacing: 0.5rem;
+
+}
+main{
+
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container{
+
+    background-color: var(--White);
+    display: flex;
+    flex-direction: row;
+    width: 46rem;
+    padding: 2.5rem;
+    border-radius: 0.5rem;
+    gap: 3rem;
+    height: 24rem;
+
+
+}
+/* general style and position*/
+
+/*leftbox*/
+
+.leftbox{
+
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-around;
+    
+    
+
+
+}
+.leftbox p:first-child{
+
+    margin: 0 0 -1rem 0;
+    color: var(--GrayishCyan);
+    font-size: 13px;
+
+}
+.leftbox .tiptxt{
+
+    margin: 0 0 -1rem 0;
+    color: var(--GrayishCyan);
+    font-size: 13px;
+
+}
+
+
+.select-porcent p:first-child{
+
+    margin:  2rem  0 1rem 0;
+    color: var(--GrayishCyan);
+    font-size: 13px;
+}
+
+.numpeople{
+
+    margin: 0 0 -1rem 0;
+    color: var(--GrayishCyan);
+    font-size: 13px;
+
+}
+
+/*leftbox inputs icon*/
+.dollar{
+
+    float:left;
+    background: url("images/icon-dollar.svg") no-repeat 10px;
+    height: 2rem;
+    border:none;
+    font-size: 24px;
+    background-color: var(--VeryLightGrayishCyan);
+    border-radius: 0.3rem;
+    color:var(--DarkGrayishCyan);
+    
+    
+    
+
+}
+    
+.people{
+    
+    float:left;
+    background: url("images/icon-person.svg") no-repeat 10px ;
+    font-family: "Space Mono", "sans-serif";
+    height: 2rem;
+    font-size:24px;
+    border:none;
+    background-color: var(--VeryLightGrayishCyan);
+    border-radius:0.3rem;
+    color:var(--DarkGrayishCyan);
+
+}
+#zero{
+    color:red;
+    float: right;
+    visibility: hidden;
+}
+
+/*leftbox inputs icon*/
+
+/*leftbox inputs style*/
+input{
+
+    height: 1.5rem;
+    text-align: right;
+    font-family: "Space Mono", "sans-serif";
+    font-size:24px;
+    padding-right: 1rem;
+    
+
+}
+input:focus{
+    
+    outline: none;
+    border:2px solid var(--StrongCyan);
+    
+
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+
+    -webkit-appearance: none;
+}
+
+input::placeholder{
+    opacity: 0.7;
+}
+/*leftbox inputs style*/
+
+/*select button style*/
+.select-porcent button{
+
+    width: 6.5rem;
+    padding: 0.2rem 0.6rem 0.2rem 0.6rem;
+    font-family: "Space Mono", "sans-serif";
+    color: var(--White);
+    background-color: var(--VeryDarkCyan);
+    border:0;
+    border-radius: 0.3rem;
+    font-size:22px;
+    cursor:pointer;
+
+
+}
+.button-active{
+
+    color:var(--VeryDarkCyan);
+    background-color: var(--LightGrayishCyan);
+}
+
+.select-porcent button:hover{
+
+    background-color: var(--StrongCyan);
+    color:var(--VeryDarkCyan);
+
+}
+
+.select-porcent input{
+
+    margin: 0%;
+    width: 6.5rem;
+    padding: 0.4rem 0 0.7rem 0;
+    font-family: "Space Mono", "sans-serif";
+    color:var(--DarkGrayishCyan);
+    background-color:var(--VeryLightGrayishCyan);
+    border: none;
+    font-size: 22px;
+    
+    
+}
+.select-porcent input::placeholder{
+    text-align: center;
+
+}
+
+.select-porcent input:focus{
+    outline: none;
+    border:2px solid var(--StrongCyan);
+    border-radius: 0.5rem;
+    
+}
+
+
+.select-porcent{
+
+    display:flex;
+    flex-direction: column;
+    
+
+}
+.btnporc:focus{
+    color:var(--DarkGrayishCyan);
+    background-color: var(--LightGrayishCyan);
+}
+.btnreset:hover{
+
+    background-color: var(--LightGrayishCyan);
+
+}
+.topbtn{
+
+    display: flex;
+    flex-direction: row;
+    gap:1rem;
+    margin-bottom: 1rem;
+    
+
+
+}
+.botbtn{
+
+    display: flex;
+    flex-direction: row;
+    gap:1rem;
+
+}
+/*select button style*/
+
+/*rightbox*/
+.rightbox{
+
+    background-color: var(--VeryDarkCyan);
+    padding:2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 0.5rem;
+
+}
+
+
+
+.rightbox button{
+
+    height: 2rem;
+    width:18rem;
+    font-family: "Space Mono", "sans-serif";
+    text-transform: uppercase;
+    font-size: 17px;
+    background-color: var(--StrongCyan);
+    opacity: 0.3;
+    color: var(--VeryDarkCyan);
+    border: none;
+    cursor: initial;
+
+}
+
+.amount{
+    margin-top: 1rem;
+    height: 3rem;
+}
+.amount p{
+
+    margin:0;
+    font-size:14px;
+    color:var(--White);
+}
+
+.amount p:nth-child(2){
+    color: var(--GrayishCyan)
+}
+
+.amount :last-child{
+
+    text-align: right;
+    transform: translateY(-60px);
+    font-size: 3rem;
+    color:var(--StrongCyan)
+
+}
+
+.total p{
+
+    margin: 0;
+    font-size:14px;
+    color:var(--White);
+
+}
+
+.total p:nth-child(2){
+    
+    color:var(--GrayishCyan);
+}
+
+.total :last-child{
+
+    text-align: right;
+    transform: translateY(-60px);
+    font-size: 3rem;
+    color:var(--StrongCyan)
+
+}
