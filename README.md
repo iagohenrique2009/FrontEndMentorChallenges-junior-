@@ -27,5 +27,5 @@
 
 - #### Tip Calculator
 
- - [Live Page]()
- - [Repository]() 
+ - [Live Page](https://iagohenrique2009.github.io/FrontEndMentorChallenges-junior-/tip-calculator-app-main/)
+ - [Repository](https://github.com/iagohenrique2009/FrontEndMentorChallenges-junior-/tree/main/tip-calculator-app-main) 
